@@ -20,14 +20,14 @@ export default function Home() {
           for businesses.
         </p>
         <div className="flex justify-center gap-8 mt-6 flex-wrap">
-          <div className="bg-gray-700 p-8 rounded-xl shadow-lg w-72 transform transition hover:scale-105">
+          <div className="bg-gray-700 p-8 rounded-xl shadow-lg w-72 transform transition hover:scale-105 hover:bg-gray-600">
             <h3 className="text-2xl font-bold text-blue-400">IT Consulting</h3>
             <p className="mt-2 text-sm text-gray-300">
               Expert advice and strategic planning to optimize your IT
               infrastructure.
             </p>
           </div>
-          <div className="bg-gray-700 p-8 rounded-xl shadow-lg w-72 transform transition hover:scale-105">
+          <div className="bg-gray-700 p-8 rounded-xl shadow-lg w-72 transform transition hover:scale-105 hover:bg-gray-600">
             <h3 className="text-2xl font-bold text-blue-400">
               Cloud Solutions
             </h3>
@@ -35,7 +35,7 @@ export default function Home() {
               Seamless cloud integration and management for your business needs.
             </p>
           </div>
-          <div className="bg-gray-700 p-8 rounded-xl shadow-lg w-72 transform transition hover:scale-105">
+          <div className="bg-gray-700 p-8 rounded-xl shadow-lg w-72 transform transition hover:scale-105 hover:bg-gray-600">
             <h3 className="text-2xl font-bold text-blue-400">Cybersecurity</h3>
             <p className="mt-2 text-sm text-gray-300">
               Protect your business with top-tier security strategies and tools.

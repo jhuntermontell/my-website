@@ -25,7 +25,7 @@ export default function Contact() {
     });
 
     if (response.ok) {
-      setStatus("Message received. Thanks! 📨");
+      setStatus("Message received. Thanks! 📬");
       setFormData({ name: "", email: "", message: "" });
     } else {
       setStatus("Oof! Something went wrong. ❌");
