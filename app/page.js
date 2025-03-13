@@ -42,7 +42,8 @@ export default function Home() {
 
       <footer className="w-full bg-gray-800 text-white py-4 mt-12 text-center border-t border-gray-700">
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} Data Hygienics. All rights reserved.
+          &copy; {new Date().getFullYear()} Data Hygienics, LLC. All rights
+          reserved.
         </p>
         <div className="flex justify-center gap-4 mt-2">
           <a href="#" className="hover:underline hover:text-gray-400">
