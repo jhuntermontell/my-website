@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-8 pt-12">
+      <main className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-r from-gray-900 via-gray-800 to-gray-700 text-white p-8 pt-12">
         <h1 className="text-5xl font-extrabold text-blue-400 drop-shadow-lg">
           Welcome to Data Hygienics
         </h1>
